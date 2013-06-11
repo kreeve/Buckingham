@@ -14,6 +14,10 @@ public class Quantity {
 	{
 		return name;
 	}
+	public int getExp(MLTDim d)
+	{
+		return dims.get(d);
+	}
 	public HashMap<MLTDim, Integer> getDims()
 	{
 		return dims;
